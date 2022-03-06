@@ -17,10 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
-})->name('dashboard');
-
 //Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 //
 //Route::group(['middleware' => 'auth'], function () {
@@ -33,3 +29,4 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 //    Route::get('table-list', function () {return view('pages.tables');})->name('table');
 //    Route::put('profile/password', ['as' => 'profile.password', 'uses' => 'App\Http\Controllers\ProfileController@password']);
 //});
+
