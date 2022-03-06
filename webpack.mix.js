@@ -20,5 +20,5 @@ mix.copyDirectory('resources/components', 'public')
     ]);
 
 if (mix.inProduction()) {
-    mix.version();
+    mix.sourceMaps().version();
 }
