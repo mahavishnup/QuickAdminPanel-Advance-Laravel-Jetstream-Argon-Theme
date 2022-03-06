@@ -20,6 +20,6 @@ notes.txt
 package-lock.json
 composer.lock
 yarn.lock
-/public
-!/public/index.php
-!/public/robots.txt
+public
+!public/index.php
+!public/robots.txt
